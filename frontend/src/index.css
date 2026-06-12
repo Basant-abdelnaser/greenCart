@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&family=Playwrite+NZ+Basic:wght@100..400&display=swap");
+@import "tailwindcss";
+* {
+  font-family: "Playpen Sans Arabic", cursive;
+}
+
+@theme {
+  --color-primary: #4fbf8b;
+  --color-primary-dull: #44ae7c;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
