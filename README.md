@@ -141,7 +141,7 @@ The platform supports two types of users:
 
 ```bash
 git clone https://github.com/Basant-abdelnaser/greenCart.git
-cd greencart
+cd greenCart
 ```
 
 ### Install Dependencies
