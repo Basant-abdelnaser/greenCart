@@ -13,7 +13,10 @@ import orderRouter from "./routes/ordersRoutes.js";
 
 const port = process.env.PORT || 4000;
 // allow multiple origins
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://green-cart-sigma-nine.vercel.app",
+];
 
 await connectDB();
 await connectCloudinary();
